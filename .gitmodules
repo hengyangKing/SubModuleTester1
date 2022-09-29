@@ -1,0 +1,4 @@
+[submodule "SubModuleTester3CustomName"]
+	path = SubModuleTester3CustomName
+	url = git@github.com:hengyangKing/SubModuleTester3.git
+	branch = main

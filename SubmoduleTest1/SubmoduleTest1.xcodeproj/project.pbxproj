@@ -13,7 +13,7 @@
 		3CF4064028E4370300CAE082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4063E28E4370300CAE082 /* Main.storyboard */; };
 		3CF4064228E4370500CAE082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4064128E4370500CAE082 /* Assets.xcassets */; };
 		3CF4064528E4370500CAE082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4064328E4370500CAE082 /* LaunchScreen.storyboard */; };
-		3CF4067428E58A0D00CAE082 /* SubModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4067028E58A0D00CAE082 /* SubModule.swift */; };
+		3CF4067E28E59CCD00CAE082 /* SubModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4067A28E59CCD00CAE082 /* SubModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		3CF4064128E4370500CAE082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF4064428E4370500CAE082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF4064628E4370500CAE082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CF4067028E58A0D00CAE082 /* SubModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubModule.swift; sourceTree = "<group>"; };
+		3CF4067A28E59CCD00CAE082 /* SubModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		3CF4063728E4370300CAE082 /* SubmoduleTest1 */ = {
 			isa = PBXGroup;
 			children = (
-				3CF4066F28E58A0D00CAE082 /* SubModuleTester3 */,
+				3CF4067928E59CCD00CAE082 /* SubModuleTester3CustomName */,
 				3CF4063828E4370300CAE082 /* AppDelegate.swift */,
 				3CF4063A28E4370300CAE082 /* SceneDelegate.swift */,
 				3CF4063C28E4370300CAE082 /* ViewController.swift */,
@@ -70,13 +70,13 @@
 			path = SubmoduleTest1;
 			sourceTree = "<group>";
 		};
-		3CF4066F28E58A0D00CAE082 /* SubModuleTester3 */ = {
+		3CF4067928E59CCD00CAE082 /* SubModuleTester3CustomName */ = {
 			isa = PBXGroup;
 			children = (
-				3CF4067028E58A0D00CAE082 /* SubModule.swift */,
+				3CF4067A28E59CCD00CAE082 /* SubModule.swift */,
 			);
-			name = SubModuleTester3;
-			path = ../../SubModuleTester3;
+			name = SubModuleTester3CustomName;
+			path = ../../SubModuleTester3CustomName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +152,7 @@
 			files = (
 				3CF4063D28E4370300CAE082 /* ViewController.swift in Sources */,
 				3CF4063928E4370300CAE082 /* AppDelegate.swift in Sources */,
-				3CF4067428E58A0D00CAE082 /* SubModule.swift in Sources */,
+				3CF4067E28E59CCD00CAE082 /* SubModule.swift in Sources */,
 				3CF4063B28E4370300CAE082 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
